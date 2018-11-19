@@ -10,3 +10,23 @@ html {
   display: block;
   width: 100%;
 }
+
+.card {
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.card-body {
+  padding: .2rem 1rem;
+}
+
+.cord-title {
+  margin: 0;
+  padding: .3rem 1rem;
+}
+
+.card-label {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  border-left: 4px solid green;
+  background-color: rgba(255, 255, 255, .6);
+}
